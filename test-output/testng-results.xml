@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-05T21:00:18 GMT+07:00" name="Register" finished-at="2024-06-05T21:00:26 GMT+07:00" duration-ms="7917">
+  <suite started-at="2024-06-08T15:46:14 GMT+07:00" name="Register" finished-at="2024-06-08T15:46:22 GMT+07:00" duration-ms="7861">
     <groups>
     </groups>
-    <test started-at="2024-06-05T21:00:18 GMT+07:00" name="TestOnChrome" finished-at="2024-06-05T21:00:26 GMT+07:00" duration-ms="7917">
+    <test started-at="2024-06-08T15:46:14 GMT+07:00" name="TestOnChrome" finished-at="2024-06-08T15:46:22 GMT+07:00" duration-ms="7861">
       <class name="tests.RegisterTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:tests.RegisterTest@5acf93bb]" started-at="2024-06-05T21:00:18 GMT+07:00" name="openBrowser" finished-at="2024-06-05T21:00:25 GMT+07:00" duration-ms="6870" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:tests.RegisterTest@7e7be63f]" started-at="2024-06-08T15:46:14 GMT+07:00" name="openBrowser" finished-at="2024-06-08T15:46:20 GMT+07:00" duration-ms="5673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="registerSuccessfully()[pri:0, instance:tests.RegisterTest@5acf93bb]" started-at="2024-06-05T21:00:25 GMT+07:00" name="registerSuccessfully" finished-at="2024-06-05T21:00:26 GMT+07:00" duration-ms="1007" status="PASS">
+        <test-method signature="registerSuccessfully()[pri:0, instance:tests.RegisterTest@7e7be63f]" started-at="2024-06-08T15:46:20 GMT+07:00" name="registerSuccessfully" finished-at="2024-06-08T15:46:22 GMT+07:00" duration-ms="2121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSuccessfully -->

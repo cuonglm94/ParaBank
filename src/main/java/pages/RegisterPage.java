@@ -18,6 +18,7 @@ public class RegisterPage extends Page {
 	By txtUserName = By.id("customer.username");
 	By txtPassword = By.id("customer.password");
 	By txtConfirm = By.id("repeatedPassword");
+	By btnRegister= By.xpath("//td/input[@class='button']");
 
 	public RegisterPage(WebDriver dr) {
 		super(dr);
@@ -36,7 +37,7 @@ public class RegisterPage extends Page {
         testBase.inputText(txtUserName, register.username, 0);
         testBase.inputText(txtPassword, register.password, 0);
         testBase.inputText(txtConfirm, register.confirm, 0);
-       // clickSubmit();
+        testBase.clickByLocator(btnRegister);
 		
 //		driverWeb.findElement(txtFirstName).sendKeys(register.firstName);
 //		driverWeb.findElement(txtLastName).sendKeys(register.firstName);
